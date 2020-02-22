@@ -1,0 +1,157 @@
+* {
+	margin: 0;
+	padding: 0;
+
+	font-family: "Arial", sans-serif;
+}
+
+.wrapper {
+	max-width: 1400px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.maim-screen {
+	width: 100%;
+	height: 100vh;
+
+	display: flex;
+    flex-direction: column;
+}
+
+.screen-section {
+	min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.screen-section .screen-section__title {
+	height: 80px;
+	width: 100%;
+	background: #DF650C;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.screen-section .screen-section__title_orange {
+	background: #DF650C;
+}
+
+.screen-section .screen-section__title_orange h2 {
+	font-family: 'Exo 2', sans-serif;
+	font-size: 50px;
+	line-height: 60px;
+	color: #1C1C1C;
+
+	font-style: normal;
+	font-weight: normal;
+}
+
+.screen-section .screen-section__title_black {
+	background: #1C1C1C;
+}
+
+.screen-section .screen-section__title_black h2{
+	font-family: 'Exo 2', sans-serif;
+	font-size: 50px;
+	line-height: 60px;
+	color: #DF650C;
+
+	font-style: normal;
+	font-weight: normal;
+}
+
+.description {
+	font-family: 'Exo 2', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 26px;
+	line-height: 35px;
+
+	color: #000000;
+
+	padding: 15px 50px 50px 50px;
+}
+
+
+@media (max-width: 1200px) { 
+
+	.screen-section .screen-section__title_orange h2 {
+		font-size: 40px;
+	}
+
+	.screen-section .screen-section__title_black h2 {
+		font-size: 40px;
+	}
+
+	.description {
+		font-size: 22px;
+	}
+}
+
+@media (max-width: 800px) { 
+	.wrapper {
+		max-width: 650px;
+	}
+
+	.screen-section .screen-section__title {
+	    padding: 10px 0;
+	    height: unset;
+	}
+
+	.screen-section .screen-section__title_black h2 {
+		max-width: 90%;
+	}
+
+	.screen-section .screen-section__title_orange h2 {
+		max-width: 90%;
+	}
+
+	.description {
+    	font-size: 20px;
+	}
+}
+
+@media (max-width: 600px) { 
+
+	.screen-section .screen-section__title_black h2 {
+		font-size: 32px;
+	}
+
+	.screen-section .screen-section__title_orange h2 {
+		font-size: 32px;
+	}
+	
+}
+
+@media (max-width: 550px) { 
+
+	.description {
+    	padding: 15px 25px 25px 25px;
+	}
+	
+	.description {
+	    font-size: 18px;
+	}
+	
+}
+
+@media (max-width: 430px) { 
+
+	.screen-section .screen-section__title_black h2 {
+		font-size: 28px;
+		line-height: 28px;
+	}
+
+	.screen-section .screen-section__title_orange h2 {
+		font-size: 28px;
+		line-height: 28px;
+	}
+
+	.description {
+	    line-height: 20px;
+	}
+	
+}
