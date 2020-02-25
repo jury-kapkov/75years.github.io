@@ -327,4 +327,14 @@
 	.slider .slider-buttons {
 	    bottom: -50%;
 	}
+
+	.overlay .overlayMenu ul li a { 
+		font-size: 26px;
+		padding: 3px 20px;
+	}
+
+	.overlay .overlayMenu {
+		top: 14vh;
+	}
 }
+
