@@ -300,7 +300,10 @@
 	}
 
 	.nav .nav__flag {
-		display: none;
+	    position: absolute;
+	    top: 25px;
+	    left: 25px;
+	    width: 70px;
 	}
 
 	.nav .nav__section_1 {
@@ -313,5 +316,15 @@
 
 	.nav {
 		padding: 20px 0;
+	}
+}
+
+@media (max-height: 420px) {
+	.maim-screen {
+	    height: 160vh;
+	}
+
+	.slider .slider-buttons {
+	    bottom: -50%;
 	}
 }
