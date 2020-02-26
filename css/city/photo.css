@@ -1,0 +1,46 @@
+.photo {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+
+	position: relative;
+}
+
+.photo .photo__img {
+	width: 100%;
+	height: 100%;
+
+	object-fit: cover;
+	object-position: center;
+}
+
+.photo .photo__orden {
+	display: block;
+	position: absolute;
+	top: 60px;
+
+	content: "";
+	background-image: url('../../img/City/orden.png');
+	background-repeat: no-repeat;
+
+	z-index: 1;
+
+	width: 100%;
+
+	height: 200px;
+    background-size: contain;
+
+    background-position: center;
+}
+
+@media (max-width: 900px) {
+	.photo .photo__orden {
+		height: 150px;
+	}
+}
+
+@media (max-width: 420px) {
+	.photo .photo__orden {
+		height: 100px;
+	}
+}

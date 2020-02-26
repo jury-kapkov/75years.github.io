@@ -19,6 +19,18 @@
     align-items: center;
 }
 
+.nav .nav__city-header {
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 57px;
+
+	color: #DF650C;
+
+	text-align: center;
+}
+
 .nav .nav__section_1 {
 	justify-content: space-around;
 }
@@ -208,6 +220,10 @@
 
 	.lang-switcher .lang-switcher__lang {
 		font-size: 32px;
+	}
+
+	.nav .nav__city-header {
+		font-size: 34px;
 	}
 
 	.nav .nav__section_1 {
