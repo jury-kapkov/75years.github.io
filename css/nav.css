@@ -31,6 +31,17 @@
 	text-align: center;
 }
 
+.nav .nav__advert-header {
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	line-height: 46px;
+	text-align: center;
+
+	color: #DF650C;
+}
+
 .nav .nav__section_1 {
 	justify-content: space-around;
 }
@@ -226,6 +237,11 @@
 		font-size: 34px;
 	}
 
+	.nav .nav__advert-header {
+		font-size: 30px;
+		line-height: 30px;
+	}
+
 	.nav .nav__section_1 {
 		flex-basis: 35%;
 	}
@@ -306,6 +322,10 @@
 	    justify-content: space-between;
 	}
 
+	.nav .nav__advert-header {
+		padding: 10px 0;
+	}
+	
 	.nav .nav__section_2 {
 		height: 100px;
 	}
@@ -321,6 +341,7 @@
 	    left: 25px;
 	    width: 70px;
 	}
+
 
 	.nav .nav__section_1 {
 		justify-content: center;
